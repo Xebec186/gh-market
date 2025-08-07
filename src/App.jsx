@@ -5,6 +5,9 @@ import PageNotFound from "./components/PageNotFound";
 import RegistrationPage from "./pages/RegistrationPage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductPage from "./pages/ProductPage";
+import UserDashboard from "./pages/UserDashboard";
+import CheckoutPage from "./pages/CheckoutPage";
+import SellerDashboard from "./pages/SellerDashboard";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:productId" element={<ProductPage />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/dashboard" element={<UserDashboard />} />
+        <Route path="/seller-dashboard" element={<SellerDashboard />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
     </BrowserRouter>
   );
