@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import products from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 
-function ShopPage() {
+function ProductsPage() {
   const [selectedCategory, setSelectedCategory] = useState("All Categories");
 
   // Filter products based on selected category
@@ -45,4 +45,4 @@ function ShopPage() {
   );
 }
 
-export default ShopPage;
+export default ProductsPage;

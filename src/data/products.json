@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Apple",
     "price": 1.2,
+    "sellerId": 1,
     "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
     "category": "Food"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "name": "T-Shirt",
     "price": 19.99,
+    "sellerId": 2,
     "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
     "category": "Clothing"
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "name": "Laptop",
     "price": 999.99,
+    "sellerId": 3,
     "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
     "category": "Electronics"
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "name": "Handmade Pottery",
     "price": 25.0,
+    "sellerId": 4,
     "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
     "category": "Crafts"
   },
@@ -31,6 +35,7 @@
     "id": 5,
     "name": "Sofa",
     "price": 499.99,
+    "sellerId": 5,
     "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
     "category": "Home"
   }
