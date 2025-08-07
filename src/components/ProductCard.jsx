@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 
-function ProductCard({ product }) {
+function ProductCard({ product, category }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/products/${product.id}`);
+    navigate(`/products/${category}/${product.id}`);
   };
 
   return (

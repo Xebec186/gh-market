@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-import Navbar from "../components/Navbar";
 import kenteImg from "../assets/registration-kente.png";
 import BuyerRegistrationForm from "../components/BuyerRegistrationForm";
 import SellerRegistrationForm from "../components/SellerRegistrationForm";
@@ -10,7 +9,6 @@ function RegistrationPage() {
 
   return (
     <div>
-      <Navbar />
       <div className="mt-12">
         <img
           src={kenteImg}

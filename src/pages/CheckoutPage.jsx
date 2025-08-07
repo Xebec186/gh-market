@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "../components/Navbar";
 
 // Dummy cart items
 const cartItems = [
@@ -34,7 +33,6 @@ function CheckoutPage() {
 
   return (
     <div className="bg-[#FAF9F6] min-h-screen">
-      <Navbar />
       <div className="max-w-3xl mx-auto pt-24 pb-12 px-4">
         {/* Breadcrumb */}
         <div className="text-sm text-gray-500 mb-4">

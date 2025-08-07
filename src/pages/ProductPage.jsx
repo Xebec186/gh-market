@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import products from "../data/products.json";
-import Navbar from "../components/Navbar";
 import { FaStar } from "react-icons/fa";
 
 const dummyReviews = [
@@ -32,7 +31,7 @@ const seller = {
 };
 
 function ProductPage() {
-  const { productId } = useParams();
+  const { category, productId } = useParams();
   const product = products.find((p) => String(p.id) === String(productId));
 
   // For demo, use the same image multiple times
@@ -51,7 +50,6 @@ function ProductPage() {
   if (!product) {
     return (
       <div>
-        <Navbar />
         <div className="pt-24 text-center text-xl text-gray-600">
           Product not found.
         </div>
@@ -61,7 +59,6 @@ function ProductPage() {
 
   return (
     <div className="bg-[#FAF9F6] min-h-screen">
-      <Navbar />
       <div className="max-w-4xl mx-auto pt-24 px-4 pb-16">
         {/* Breadcrumb */}
         <div className="text-sm text-gray-500 mb-4">

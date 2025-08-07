@@ -8,11 +8,11 @@ function ProductsNearYou() {
   return (
     <div className="mt-8">
       <h2 className="text-3xl font-bold mb-4 text-left">Products Near You</h2>
-      <ul className="flex gap-4">
+      <ul className="flex gap-4  md:gap-8 overflow-x-auto">
         <CardListItem text="Handwoven Kente Cloth" imgSrc={handwovenkenteImg} />
         <CardListItem text="Leather Sandals" imgSrc={sandalsImg} />
         <CardListItem text="Wall Art" imgSrc={wallartImg} />
-        <CardListItem text="Shea Butter Body Lotion" imgSrc={sheabutterImg} />
+        <CardListItem text="Body Lotion" imgSrc={sheabutterImg} />
       </ul>
     </div>
   );

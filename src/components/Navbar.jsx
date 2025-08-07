@@ -42,7 +42,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/favorites" className="hover:text-blue-500">
+              <Link to="/wishlist" className="hover:text-blue-500">
                 <CiHeart />
               </Link>
             </li>
@@ -71,7 +71,7 @@ function Navbar() {
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center gap-4 py-4 md:hidden z-50">
           <Link
-            to="/shop"
+            to="/products"
             className="text-gray-700 font-medium hover:text-blue-500"
             onClick={() => setMenuOpen(false)}
           >
