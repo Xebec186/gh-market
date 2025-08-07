@@ -16,7 +16,7 @@ function Navbar() {
           </Link>
           <ul className="hidden md:flex gap-4 text-gray-700 font-medium">
             <li>
-              <Link to="/shop" className="hover:text-blue-500">
+              <Link to="/products" className="hover:text-blue-500">
                 Shop
               </Link>
             </li>
